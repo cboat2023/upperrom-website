@@ -1,4 +1,4 @@
-# Cornerstone Church Website
+# UpperRoom Church Website
 
 This is a [Next.js](https://nextjs.org) project for Cornerstone Church, built with TypeScript and Tailwind CSS.
 
