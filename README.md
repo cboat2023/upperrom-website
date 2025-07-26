@@ -1,8 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cornerstone Church Website
+
+This is a [Next.js](https://nextjs.org) project for Cornerstone Church, built with TypeScript and Tailwind CSS.
+
+## Features
+
+- ✅ Responsive design with Tailwind CSS
+- ✅ Mobile-friendly navigation with hamburger menu
+- ✅ TypeScript support throughout
+- ✅ Modular component architecture
+- ✅ SEO-friendly page structure
+- ✅ Image optimization configuration
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,9 +33,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `pages/` - Next.js pages using Pages Router
+- `components/` - Reusable React components
+- `styles/` - Global CSS and module styles
+- `public/` - Static assets (images, etc.)
+
+## Pages
+
+- Home (`/`) - Main landing page
+- About (`/about`) - Church information
+- New Here (`/newhere`) - Visitor information
+- Our Team (`/our-team`) - Staff and leadership
+- Kids (`/kids`) - Children's ministry
+- Baptism (`/baptism`) - Baptism information
+- Groups (`/groups`) - Small groups
+- Sermons (`/sermons`) - Sermon archive
+- Blog (`/blog`) - Church blog
+- Give (`/give`) - Online giving
+- Events (`/events`) - Church events
 
 ## Learn More
 
@@ -26,8 +60,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
